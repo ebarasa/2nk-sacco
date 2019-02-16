@@ -10,4 +10,4 @@
 
 4) `git push origin master`
 
->Todo: learn markdown, learn use of branches
+>_Todo: learn markdown, learn use of branches_
