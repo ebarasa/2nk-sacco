@@ -89,32 +89,5 @@ a.article-title:hover {
   color: #ffffff;
   background-color: #5f788a;
   text-align: center;
-}
-
-.container{
-  width: 80%;
-  margin: auto;
-  overflow: hidden;
-}
-
-#newsletter{
-  padding: 15px;
-  color: #ffffff;
-  background: #35424a;
-  border-bottom: #ff3700 5px solid;
-}
-
-#newsletter h1{
-  float: left;
-}
-
-#newsletter form{
-  float: right;
-  margin-top: 15px;
-}
-
-#newsletter input[type="email"]{
-  padding: 4px;
-  height: 25px;
-  width: 250px;
+  margin-bottom: 5px;
 }

@@ -1,20 +1,5 @@
 {% extends "blog/base.html" %}
 
-{% block con %}
-
-	<p>Kenya</p>
-	<section id="newsletter">
-		<div class="container">
-			<h1>Subscribe to our news letter</h1>
-			<form>
-				<input type="email" placeholder="Eter email...">
-				<button type="submit" class="button_1">Subscribe</button>
-			</form>
-		</div>
-	</section> 
-
-{% endblock %}
-
 {% block content %}
 
 	{% for post in posts %}
