@@ -13,16 +13,16 @@
     <link rel="stylesheet" type="text/css" href="{% static 'blog/main.css' %}">
 
 	{% if title %}
-		<title>2NK SACCO LIMITED - {{ title }}</title>
+		<title>2NK SACCO SOCIETY LIMITED - {{ title }}</title>
 	{% else %}
-		<title>2NK SACCO LIMITED</title>
+		<title>2NK SACCO SOCIETY LIMITED</title>
 	{% endif %}
 </head>
 <body>
 	<header class="site-header">
 	  <nav class="navbar navbar-expand-md navbar-dark bg-steel fixed-top">
 	    <div class="container">
-	      <a class="navbar-brand mr-4" href="{% url 'blog-home' %}">2NK SACCO LIMITED</a>
+	      <a class="navbar-brand mr-4" href="{% url 'blog-home' %}">2NK SACCO SOCIETY LIMITED</a>
 	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
 	      <span class="navbar-toggler-icon"></span>
 	      </button>
@@ -34,7 +34,7 @@
 	          <a class="nav-item nav-link" href="{% url 'blog-membership' %}">Membership</a>
 	          <a class="nav-item nav-link" href="{% url 'blog-infocenter' %}">InfoCenter</a>
 	          <a class="nav-item nav-link" href="{% url 'blog-CSR' %}">CSR</a>
-	          <a class="nav-item nav-link" href="{% url 'blog-contact' %}">Contacts</a>
+	          <a class="nav-item nav-link" href="{% url 'blog-contact' %}">Contacts Us</a>
 	        </div>
 	        <!-- Navbar Right Side -->
 	        <div class="navbar-nav">
@@ -46,10 +46,13 @@
 	  </nav>
 	</header>
 
-	<div class="top">
-		{% block top %}{% endblock %}
-	</div>
-	
+	<main role="main" class="container">
+		<div class="mid">
+			{% block mid %}{% endblock %}
+		</div>
+	</main>
+
+
 	<main role="main" class="container">
 	  <div class="row">
 	    <div class="col-md-8">
