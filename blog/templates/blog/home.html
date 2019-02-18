@@ -1,11 +1,4 @@
 {% extends "blog/base.html" %}
-{% block news %}
-			<h1>Subscribe to our news letter</h1>
-			<form>
-				<input type="email" placeholder="Eter email...">
-				<button type="submit" class="button_1">Subscribe</button>
-			</form>
-{% endblock %}
 
 {% block mid %}
 	<h2>WELCOME TO 2NK SACCO</h2>
@@ -14,6 +7,16 @@
 	<p> The SACCO has gained popularity in various parts of the country for its efficient service transport in ordinary fourteen capacity vans, Executive – shuttles and parcel Delivery.</p>
 	<p>The Sacco Vehicles offers daily trips to the capital city Nairobi from major towns among them  Nyeri, Karatina, Nakuru,Eldoret , Thika  and Nanyuki.</p>
 {% endblock %}
+
+{% block news %}
+			<h1>Subscribe to our news letter</h1>
+			<form>
+				<input type="email" placeholder="Eter email...">
+				<button type="submit" class="button_1">Subscribe</button>
+			</form>
+{% endblock %}
+
+
 {% block content %}
 
 	{% for post in posts %}
@@ -30,3 +33,12 @@
 	{% endfor %}
 
 {% endblock content %}
+
+{% block bot %}
+
+	<h1>Voted the Best Managed Transport Sacco in Kenya Year 2016/2017</h1>
+	<form>
+		<button type="submit" class="button_1">LIST OF AWARDS</button>
+	</form>
+
+{% endblock %}

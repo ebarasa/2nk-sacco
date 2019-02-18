@@ -107,9 +107,9 @@ a.article-title:hover {
 }
 
 .news {
-  padding: 15px;
+  padding: 0px;
   color: #ffffff;
-  background: #ff3700;
+  background: #759131;
   margin-bottom: 20px;
 }
 .news h1{
@@ -118,6 +118,7 @@ a.article-title:hover {
 }
 
 .news form{
+  padding: 10px;
   text-align:center; 
 }
 
@@ -125,4 +126,19 @@ a.article-title:hover {
   padding: 4px;
   height: 30px;
   width: 250px;
+}
+
+.bot {
+  background: #759131;
+  text-align: center;
+}
+
+.bot h1 {
+  color:  #ffffff;
+  text-align: center;
+}
+
+.bot form{
+  padding: 10px;
+  text-align:center; 
 }
