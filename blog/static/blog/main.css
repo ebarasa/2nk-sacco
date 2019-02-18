@@ -105,3 +105,24 @@ a.article-title:hover {
   text-align: center;
   margin-bottom: 5px;
 }
+
+.news {
+  padding: 15px;
+  color: #ffffff;
+  background: #ff3700;
+  margin-bottom: 20px;
+}
+.news h1{
+  color:  #ffffff;
+  text-align: center;
+}
+
+.news form{
+  text-align:center; 
+}
+
+.news input[type="email"]{
+  padding: 4px;
+  height: 30px;
+  width: 250px;
+}
