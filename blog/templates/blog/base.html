@@ -29,7 +29,7 @@
 	      <div class="collapse navbar-collapse" id="navbarToggle">
 	        <div class="navbar-nav mr-auto">
 	          <a class="nav-item nav-link" href="{% url 'blog-home' %}">Home</a>
-	          <a class="nav-item nav-link" href="{% url 'blog-about' %}">About</a>
+	          <a class="nav-item nav-link" href="{% url 'blog-about' %}">About Us</a>
 	          <a class="nav-item nav-link" href="{% url 'blog-services' %}">Services</a>
 	          <a class="nav-item nav-link" href="{% url 'blog-membership' %}">Membership</a>
 	          <a class="nav-item nav-link" href="{% url 'blog-infocenter' %}">InfoCenter</a>
@@ -45,6 +45,17 @@
 	    </div>
 	  </nav>
 	</header>
+
+	<main role="main" class="container">
+   		<div class="row">
+	    	<div class="col-md-8">
+	      		{% block right %}{% endblock %}
+	    	</div>
+	   	 	<div class="col-md-4">
+	        	{% block left %}{% endblock %}
+	   	 	</div>
+	   	</div>
+	</main>     
 
 	<main role="main" class="container">
 		<div class="mid">
@@ -96,6 +107,17 @@
 			{% block bot %}{% endblock %}
 		</div>
 	</main>
+
+	<main role="main" class="container">
+   		<div class="row">
+	    	<div class="col-md-8">
+	      		{% block x %}{% endblock %}
+	    	</div>
+	   	 	<div class="col-md-4">
+	        	{% block y %}{% endblock %}
+	   	 	</div>
+	   	</div>
+	</main> 
 
 	<div class="footer">
 		<p>2NK SACCO SOCIETY LTD Copyright &copy; 2019</p>
