@@ -33,7 +33,7 @@ ul {
   padding: 10px 20px;
   border: 1px solid #dddddd;
   border-radius: 3px;
-  margin-bottom: 25px;
+  margin-bottom: 20px;
 }
 
 .article-title {
@@ -94,7 +94,7 @@ a.article-title:hover {
 
 .mid {
   text-align: center;
-  padding-bottom: 30px;
+  padding-bottom: 20px;
 }
 
 .footer {
@@ -110,7 +110,7 @@ a.article-title:hover {
   padding: 0px;
   color: #ffffff;
   background: #759131;
-  margin-bottom: 25px;
+  margin-bottom: 20px;
 }
 .news h1{
   color:  #ffffff;
@@ -131,7 +131,7 @@ a.article-title:hover {
 .bot {
   background: #759131;
   text-align: center;
-  margin-bottom: 25PX;
+  padding-bottom: 20px;
 }
 
 .bot h1 {
@@ -142,8 +142,4 @@ a.article-title:hover {
 .bot form{
   padding: 10px;
   text-align:center; 
-}
-
-.row {
-  padding-bottom: 25px;
 }
