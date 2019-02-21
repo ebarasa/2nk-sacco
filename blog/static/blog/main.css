@@ -100,7 +100,7 @@ a.article-title:hover {
 .footer {
   padding: 20px;
   margin-top: 10px;
-  color: #ffffff;
+  color: #0AF4ED;
   background-color: #5f788a;
   text-align: center;
   margin-bottom: 5px;
@@ -131,7 +131,8 @@ a.article-title:hover {
 .bot {
   background: #759131;
   text-align: center;
-  padding-bottom: 20px;
+  padding-bottom: 0px;
+  margin-bottom: 30px;
 }
 
 .bot h1 {
@@ -142,4 +143,12 @@ a.article-title:hover {
 .bot form{
   padding: 10px;
   text-align:center; 
+}
+
+.row{
+  margin-bottom: 30px;
+}
+
+.midd h5, h1, h3, h4, h2, h6{
+  color: #A4B718;
 }
