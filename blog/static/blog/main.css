@@ -36,6 +36,13 @@ ul {
   margin-bottom: 20px;
 }
 
+.content-sec {
+  background: #ffffff;
+  padding: 10px 20px;
+  border-radius: 3px;
+  margin-bottom: 20px;
+}
+
 .article-title {
   color: #444444;
 }
@@ -152,3 +159,4 @@ a.article-title:hover {
 .midd h5, h1, h3, h4, h2, h6{
   color: #A4B718;
 }
+
