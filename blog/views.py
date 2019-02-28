@@ -45,4 +45,3 @@ def CSR(request):
 
 def contact(request):
 	return render(request, 'blog/contact.html', {'title': 'Contact'})
-

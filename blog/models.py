@@ -8,3 +8,4 @@ class post(models.Model):
 	date_poted = models.DateTimeField(default=timezone.now)
 	author = models.ForeignKey(User, on_delete=models.CASCADE)
 
+
