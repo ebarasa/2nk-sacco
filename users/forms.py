@@ -11,13 +11,11 @@ class UserRegisterForm(UserCreationForm):
 	national_Id = forms.CharField(required=True)
 	email = forms.EmailField(required=True)
 	mobile_number = forms.CharField(required=True)
-	matatu_name = forms.CharField(required=True) 
-	matatu_registration_number = forms.CharField(required=True)
 	location = forms.CharField(required=True)
 
 	class Meta:
 		model = User
-		fields = ['username', 'first_name', 'middle_name',  'last_name', 'national_Id',  'email', 'mobile_number', 'matatu_name', 'matatu_registration_number', 'location', 'password1', 'password2']
+		fields = ['username', 'first_name', 'middle_name',  'last_name', 'national_Id',  'email', 'mobile_number', 'location', 'password1', 'password2']
 
 
 
@@ -28,15 +26,13 @@ class UserUpdateForm(forms.ModelForm):
 	national_Id = forms.CharField(required=True)
 	email = forms.EmailField(required=True)
 	mobile_number = forms.CharField(required=True)
-	matatu_name = forms.CharField(required=True) 
-	matatu_registration_number = forms.CharField(required=True)
 	location = forms.CharField(required=True)
 
 
 
 	class Meta:
 		model = User
-		fields = ['username', 'first_name', 'middle_name',  'last_name', 'national_Id',  'email', 'mobile_number', 'matatu_name', 'matatu_registration_number', 'location']
+		fields = ['username', 'first_name', 'middle_name',  'last_name', 'national_Id',  'email', 'mobile_number', 'location']
 
 
 class ProfileUpdateForm(forms.ModelForm):

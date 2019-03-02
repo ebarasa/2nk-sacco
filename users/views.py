@@ -44,5 +44,3 @@ def activities(request):
 def details(request):
 	return render(request, 'users/details.html')
 
-def report(request):
-	return render(request, 'users/report.html')
